@@ -1,0 +1,25 @@
+import java.io.EOFException;
+import java.io.File;
+
+public class DeleteFile {
+
+	public static void main(String[] args) {
+		try{
+		
+			String path = "D:\\demo.txt";
+			File f = new File (path);
+		if  (f.delete());{
+				
+				System.out.println("File Deleted");
+		}
+		else
+		{
+				System.out.println("File Can Not Be Deleted");
+		}
+	}		
+				catch(Exception e) {
+				System.out.println(e);
+		}
+	}
+
+}
