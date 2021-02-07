@@ -1,6 +1,6 @@
 import java.io.*;
 
-class FibonacciSequence{
+class FibonacciTheorem{
   public static void main(String[] args){
   
     int numToPrint = 0, currentNumber = 1, lastNumber = 1;
